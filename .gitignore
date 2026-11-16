@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# ROS 2 / colcon
+build/
+install/
+log/
+logs/
+
+# ROS bags and recordings
+*.db3
+*.mcap
+*.bag
+
+# Local environment and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
