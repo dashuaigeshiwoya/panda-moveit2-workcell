@@ -1,4 +1,4 @@
-简介：这个项目是基于https://github.com/AndrejOrsula/pymoveit2?utm_source=chatgpt.com这个机械臂开发的，主要功能是模拟真实工厂布置了工作区域，模拟真实流水线模拟抓取任务，原创了网页界面控制上述任务，还有就是放置了障碍物，比如我的workspace_wall文件就是创造墙能把机械臂上下左右围起来，然后你会发现没放置墙之前，机械臂抓取移动的路径是很夸张的（默认用的是OMPL里的RRTConnect),放置墙之后动作就小了很多，这也是验证了这个路径规划是有用的，为什么我要放墙进去？因为我之后想自己搞APF(人工势场法轨迹规划）进去这个轨迹规划，看看会有啥区别。
+简介：这个项目是基于https://github.com/AndrejOrsula/pymoveit2?utm_source=chatgpt.com。这个机械臂开发的，主要功能是模拟真实工厂布置了工作区域，模拟真实流水线模拟抓取任务，原创了网页界面控制上述任务，还有就是放置了障碍物，比如我的workspace_wall文件就是创造墙能把机械臂上下左右围起来，然后你会发现没放置墙之前，机械臂抓取移动的路径是很夸张的（默认用的是OMPL里的RRTConnect),放置墙之后动作就小了很多，这也是验证了这个路径规划是有用的，为什么我要放墙进去？因为我之后想自己搞APF(人工势场法轨迹规划）进去这个轨迹规划，看看会有啥区别。
 使用教程：先把机械臂给clone下来：https://github.com/AndrejOrsula/pymoveit2?utm_source=chatgpt.com。再把我的.py文件复制粘贴到机械臂src并列（注意不是里面），就可以运行了。具体使用方法是查一下chatgpt吧或者在我的ubuntu桌面一个叫Untitled Document 1的文件里面有。
 # panda-moveit2-workcell
 Panda MoveIt2 Workcell  ROS 2 Humble | MoveIt 2 | Python | OMPL / RRTConnect | RViz2  Overview  This project implements a simulated robotic workcell using the Franka Emika Panda manipulator, ROS 2 Humble, and MoveIt 2.
